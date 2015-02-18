@@ -1,6 +1,6 @@
 <?php
 
-require_once 'model/model.php';
+require_once 'controller/controller.php';
 //require_once 'controllers.php';
 
 $clientes = get_all_clients();
