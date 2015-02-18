@@ -19,6 +19,13 @@ Develop small Framework is to share my progress in PHP, MVC architecture and Uni
 	2. I think you know what to do ( rs )
 
 		For you view All users type "?ver" in URL
-			For Example:
+			Example:
 
-				http://localhost/little_framework/?ver
+				http://localhost/engel_framework/?ver
+
+		For you create NEW Client, type "?criar" in URL
+			Example:
+
+				http://localhost/engel_framework/?criar
+
+	3. Leave your tips ;)

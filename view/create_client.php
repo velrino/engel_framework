@@ -1,9 +1,11 @@
 <?php
-
+/*
 require_once '../controller/controller.php';
 
 $create_client = create_client();
+*/
 
+ //$clientes = create_client();
 
 ?>
 <!doctype html>
@@ -35,7 +37,7 @@ float: right;
 </div>
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
-<li><a href="../index.php">Todos</a></li>
+<li><a href="?ver">Todos</a></li>
 <li class="active"><a href="#">Novo</a></li>
 </ul>
 </div>
@@ -57,7 +59,7 @@ float: right;
 </p>
 <p>
 <!-- Botão de Salvar -->
-<input type="submit" value="Salvar" class="btn btn-success" onclick="$create_client" value="Resultado">
+<input type="submit" value="Salvar" class="btn btn-success" onclick="$create_client();" value="Resultado">
 </p>
 </form>
 </div>

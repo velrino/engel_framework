@@ -1,4 +1,8 @@
-<?php $title = $post['nome_cliente'] 
+<?php 
+ 
+ echo 'Blindão';
+
+/**$title = $post['nome_cliente'] 
 #$query = mysql_query("SELECT id_cliente, nome_cliente, telefone_cliente, endereco_cliente , numero_cliente, outras_info FROM cliente");
 ?>
 
