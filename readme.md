@@ -4,7 +4,7 @@ Develop small Framework is to share my progress in PHP, MVC architecture and Uni
 
 ## Install
 
-1 . Database import
+1. Database import
 
 		Required:
 
@@ -15,6 +15,7 @@ Develop small Framework is to share my progress in PHP, MVC architecture and Uni
 		In Terminal you type :
 
 			mysql -u root -p123 project_pizzaria < database.sql
+
 
 2. I think you know what to do ( rs )
 
@@ -27,5 +28,6 @@ Develop small Framework is to share my progress in PHP, MVC architecture and Uni
 			Example:
 
 				http://localhost/engel_framework/?criar
+
 
 3. Leave your tips ;)
