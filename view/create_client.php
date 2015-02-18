@@ -1,4 +1,10 @@
 <?php
+
+require_once '../model/model.php';
+
+$create_client = create_client();
+
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -43,15 +49,15 @@ float: right;
 <form method="post" name="formulario" action="#">
 <p>
 
-	<input type="text" name="cliente" placeholder="Cliente" class="form-control" required>
+	<input type="text" name="name" placeholder="Cliente" class="form-control">
 </p>
 <p>
 <!-- Campo Tamanho -->
-<input type="text" name="endereco" id="endereco" placeholder="Endereço" class="form-control" required>
+<input type="text" name="endereco" id="endereco" placeholder="Endereço" class="form-control" >
 </p>
 <p>
 <!-- Botão de Salvar -->
-<input type="submit" value="Salvar" class="btn btn-success" onclick="validarCampo()" value="Resultado">
+<input type="submit" value="Salvar" class="btn btn-success" onclick="$create_client" value="Resultado">
 </p>
 </form>
 </div>

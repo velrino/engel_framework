@@ -1,5 +1,19 @@
-## Little Framework
+## Engel Framework
 
-Hi
+Develop small Framework is to share my progress in PHP using MVC architecture.
 
-Create this mini framework to share my evolution in PHP using MVC architecture.
+## Installation
+
+	1 . Database import :
+
+Required:
+
+User : root
+Password: 123
+Database: project_pizzaria
+
+In Terminal you type :
+
+mysql -u root -p123 project_pizzaria < database.sql
+
+	2. I think you know what to do ( rs )
