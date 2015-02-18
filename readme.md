@@ -2,9 +2,9 @@
 
 Develop small Framework is to share my progress in PHP, MVC architecture and Unit Testing .
 
-## Installation
+## Install
 
-	1 . Database import
+1 . Database import
 
 		Required:
 
@@ -16,7 +16,7 @@ Develop small Framework is to share my progress in PHP, MVC architecture and Uni
 
 			mysql -u root -p123 project_pizzaria < database.sql
 
-	2. I think you know what to do ( rs )
+2. I think you know what to do ( rs )
 
 		For you view All users type "?ver" in URL
 			Example:
@@ -28,4 +28,4 @@ Develop small Framework is to share my progress in PHP, MVC architecture and Uni
 
 				http://localhost/engel_framework/?criar
 
-	3. Leave your tips ;)
+3. Leave your tips ;)
