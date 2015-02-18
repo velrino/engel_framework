@@ -1,6 +1,6 @@
 <?php
 
-require_once '../model/model.php';
+require_once '../controller/controller.php';
 
 $create_client = create_client();
 

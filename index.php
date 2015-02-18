@@ -1,8 +1,8 @@
 <?php
 
-require_once 'controller/controller.php';
-//require_once 'controllers.php';
+//Chamando a função INDEX do MODEL 
 
-$clientes = get_all_clients();
+require_once 'model/model.php';
 
-require 'view/view_client.php';
+$principal = new Indexe();
+
