@@ -1,8 +1,9 @@
 <?php
 
-//Chamando a função INDEX do MODEL 
+//Chamando a função INDEX do MODEL
 
 require_once 'controller/controller.php';
+
 
 $principal = new  View_AllCLients();
 

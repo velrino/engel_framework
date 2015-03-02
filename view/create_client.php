@@ -55,7 +55,7 @@ float: right;
 </p>
 <p>
 <!-- Campo Tamanho -->
-<input type="text" name="endereco" id="endereco" placeholder="Endereço" class="form-control" >
+    <input type="text" name="endereco" id="endereco" placeholder="Endereço" class="form-control" >
 </p>
 <p>
 <!-- Botão de Salvar -->
